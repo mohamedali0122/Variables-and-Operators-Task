@@ -23,7 +23,7 @@ Task 1:
  Task 2:
    1. Subtract two numbers and log the result to the console.   
    2. Multiply together the values of four odd numbers that come one after the other, and then output the final result to the console.
-   3. Calculate the volume of a rectangular prism with dimensions 3x5x7 and log the result to the console.
+   3. Calculate the volume of a rectangular prism with dimensions 3x5x7 and log the result to the console (Volume of rectangular is h x w x l).
    4. Declare a variable price and assign it the value 9.99. Declare another variable discount and assign it the value 0.20. Calculate the discounted price and log the result to the console.
    5. Divide two numbers and round the result to the nearest integer before logging it to the console.
 *******************************************************************************/
