@@ -15,7 +15,7 @@ Task 1:
    4. Set the value of variable c to the remainder of dividing 17 by 3.
    5. Set the value of variable d to the result of subtracting variable a from variable b.
    6. Set the value of variable e to the sum of variables a, b, c, and d.
-   7. Use console.log() to print the value of variable e to the console. (it should result 105.667)
+   7. Use console.log() to print the value of variable e to the console. (it should result 102.000)
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
 
