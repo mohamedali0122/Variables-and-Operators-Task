@@ -15,6 +15,13 @@
     2. Use console.log() to output the value of each variable.
  ********************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let personName ="mohamed ali";
+let age =24;
+let isHappy = true;
+
+console.log(personName);
+console.log(age);
+console.log(isHappy);
 
 /*******************************************************************************
  Task 2 (Reassigning variables):
@@ -25,6 +32,9 @@
  *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
 
+let nickName = personName;
+console.log(nickName);
+
 /*******************************************************************************
  Task 3 (Naming variables):
  
@@ -34,6 +44,9 @@
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
 
+let myFilm ="johan waek";
+let myAge =34;
+console.log(`my best film is ${myFilm}, and my age ${myAge}`);
 /*******************************************************************************
 Task 4 (String Concatenation):
     Build upon the previous task by completing the following steps:
@@ -48,3 +61,6 @@ Steps:
         - Print the final message to the console, including the personName in uppercase in this format `Dear personName_VALUE, here's your message: finalMsg_VALUE.`.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
+let msg =prompt(" Why are you happy?");
+let final_message=`${msg}  And btw, Why are you happy?`;
+console.log(`Dear ${final_message}, here's your message: ${personName.toUpperCase()}`);
