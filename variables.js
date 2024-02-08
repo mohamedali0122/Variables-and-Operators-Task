@@ -41,10 +41,11 @@ Task 4 (String Concatenation):
 Steps:
     1. Declare a new variable called 'msg'.
     2. Use the `prompt()` function to ask the user to enter a message for the person you just created. Then assign the value to the `msg` variable.
-    3. Use string concatenation to create a message
-        - If 'isHappy' is true, add the question "And btw, Why are you happy?" to the message.
-        - If 'isHappy' is false, add the response "And btw, Good for you. There's nothing to be happy about." to the message
-        - Assign the completed message to a variable called finalMsg
-        - Print the final message to the console, including the personName in uppercase in this format `Dear personName_VALUE, here's your message: finalMsg_VALUE.`.
+    3. Declare a new variable called 'finalMsg'.
+    4. Then complete the message by following these steps:
+        - If the value of the 'isHappy' variable above is true, add this text: "And by the way, why are you happy?" to the `msg` variable using string concatenation.
+        - If the value of the 'isHappy' variable is false, concatenate the message: "And btw, Good for you. There's nothing to be happy about." to the `msg` variable.
+        - Assign the completed message to the `finalMsg` variable
+    5. Print the final message to the console, including the `personName` in uppercase in this format `Dear personName_VALUE, here's your message: finalMsg_VALUE.`.
 *******************************************************************************/
 // TODO: ADD YOUR CODE BELOW
